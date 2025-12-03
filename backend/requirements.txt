@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-jose[cryptography]  # For authentication
+passlib[bcrypt]==1.7.4     # For password hashing - fixed version
+bcrypt==4.0.1               # Explicit bcrypt version to avoid compatibility issues
+motor                      # Async MongoDB driver
+celery                     # For background tasks
+redis                      # Broker for Celery
+psycopg2-binary            # PostgreSQL driver
+GeoAlchemy2                # For PostGIS location support in SQLAlchemy
+python-dotenv              # For managing environment variables
+

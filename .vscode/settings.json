@@ -1,0 +1,12 @@
+{
+    // Tells the language server (for autocompletion) where your source code is.
+    "python.analysis.extraPaths": [
+        "./backend"
+    ],
+    
+    // Tells the linter (Pylint) where your source code is.
+    "python.linting.pylintArgs": [
+        "--init-hook",
+        "import sys; sys.path.append('./backend')"
+    ]
+}
